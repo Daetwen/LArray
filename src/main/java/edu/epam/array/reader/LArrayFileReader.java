@@ -1,10 +1,10 @@
 package edu.epam.array.reader;
 
-import edu.epam.array.exception.FileException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -23,15 +23,15 @@ public class LArrayFileReader {
             Path path = Paths.get(filePath);
             if(Files.notExists(path)) {
                 logger.error("File doesn't exist");
-                throw new FileException("File doesn't exist");
+                throw new FileNotFoundException("File doesn't exist");
             }
-            String data = null;
+            String data;
             while ((data = reader.readLine()) != null) {
                 infoList.add(data);
             }
             logger.info("Information read successfully");
             return infoList;
-        } catch (IOException | FileException e) {
+        } catch (IOException e) {
             logger.error("Error reading from file");
         }
         return infoList;

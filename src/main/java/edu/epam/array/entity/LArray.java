@@ -1,5 +1,7 @@
 package edu.epam.array.entity;
 
+import edu.epam.array.validator.LArrayValidator;
+
 import java.util.Arrays;
 import java.util.OptionalInt;
 
@@ -22,22 +24,13 @@ public class LArray {
     }
 
     public OptionalInt getLArrayElementByIndex(int index) {
-        if (index >= 0 && index <= this.lArray.length) {
+        if (LArrayValidator.isIndexArrayValid(this.lArray, index)) {
             return OptionalInt.of(this.lArray[index]);
         }
         return OptionalInt.empty();
     }
 
-    @Override
-    public String toString() {
-        StringBuilder stringBuilder = new StringBuilder();
-        for(int element : this.lArray) {
-            stringBuilder.append(element).append(" ");
-        }
-        return stringBuilder.toString();
-    }
-
-    private boolean isEqual(Object object) {
+    public boolean isEqual(Object object) {
         if(object == null || object.getClass() != this.getClass()) {
             return false;
         }
@@ -55,6 +48,15 @@ public class LArray {
 
     public int length() {
         return this.lArray.length;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder stringBuilder = new StringBuilder();
+        for(int element : this.lArray) {
+            stringBuilder.append(element).append(" ");
+        }
+        return stringBuilder.toString();
     }
 }
 

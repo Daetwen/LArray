@@ -1,0 +1,72 @@
+21-05-27 15:01.945 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:02.514 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:03.887 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:05.910 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:05.790 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:06.805 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:06.582 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:12.963 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:12.593 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:14.749 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:14.456 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:15.688 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:15.184 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:15.869 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:16.061 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:17.917 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:17.478 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:17.870 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:18.505 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:18.245 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:18.116 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:19.006 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:19.725 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:19.466 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:21.679 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:21.799 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:21.645 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:24.456 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:25.847 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:25.270 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:26.939 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:28.854 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:28.210 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:28.443 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:30.376 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:30.576 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:31.791 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:34.882 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:36.356 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:38.665 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:39.912 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:42.515 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:42.950 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:45.817 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:46.739 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:47.656 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:47.657 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:52.718 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:54.057 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:55.039 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 15:58.231 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 16:04.088 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 16:04.365 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 16:05.514 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 16:07.803 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 16:07.208 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 16:12.148 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 16:12.759 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 16:12.885 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 16:14.807 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 16:15.622 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 16:42.316 [main] ERROR epam.array.service.impl.ChangeServiceImpl - Invalid index: 5. Index must be in range from 0 to 11
+21-05-27 16:42.320 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 17:26.849 [main] ERROR epam.array.service.impl.ChangeServiceImpl - Invalid index: 4. Index must be in range from 0 to 9
+21-05-27 17:27.404 [main] ERROR epam.array.service.impl.ChangeServiceImpl - Invalid index: 4. Index must be in range from 0 to 9
+21-05-27 17:28.377 [main] ERROR epam.array.service.impl.ChangeServiceImpl - Invalid index: 5. Index must be in range from 0 to 11
+21-05-27 17:28.395 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 17:29.967 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-27 17:31.913 [main] ERROR epam.array.service.impl.ChangeServiceImpl - Invalid index: 50. Index must be in range from 0 to 9
+21-05-27 17:31.922 [main] ERROR epam.array.service.impl.ChangeServiceImpl - Invalid index: -2. Index must be in range from 0 to 9
+21-05-27 17:43.189 [main] ERROR epam.array.service.impl.ChangeServiceImpl - Invalid index: 50. Index must be in range from 0 to 9
+21-05-27 17:43.197 [main] ERROR epam.array.service.impl.ChangeServiceImpl - Invalid index: -2. Index must be in range from 0 to 9
