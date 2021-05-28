@@ -1,8 +1,7 @@
 package edu.epam.array.service.impl;
 
 import edu.epam.array.entity.LArray;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotEquals;
@@ -12,7 +11,7 @@ public class DetectionServiceImplTest {
     private LArray lArray;
     private LArray lArray2;
 
-    @BeforeMethod
+    @BeforeClass
     public void setUp() {
         lArray = new LArray(1, 2, 3, 4, 55, 6, 7, 8, 9, 5);
         lArray2 = new LArray(-1, 2, -3, 4, -55, 6, 7, -8, 9, 5);

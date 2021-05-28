@@ -18,7 +18,7 @@ public class ChangeServiceImplTest {
     private int[] testArray4;
     private int[] testArray5;
 
-    @BeforeMethod
+    @BeforeClass
     public void setUp() {
         lArray = new LArray(1, 2, 3, 4, 55, 6, 7, 8, 9);
         expected = new int[0];
@@ -31,7 +31,6 @@ public class ChangeServiceImplTest {
 
     @Test(description = "Positive test for change element.")
     public void changeElementByIndexPositiveTest() throws InfoException {
-        lArray = new LArray(1, 2, 3, 4, 55, 6, 7, 8, 9);
         expected = lArray.getLArray();
         LArray lArrayLocal = new LArray(1, 2, 3, 4, 5, 6, 7, 8, 9);
         int[] actual = changeServiceImpl.changeElementByIndex(lArrayLocal, 4, 55);

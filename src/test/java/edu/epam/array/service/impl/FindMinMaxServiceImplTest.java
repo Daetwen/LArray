@@ -11,7 +11,7 @@ public class FindMinMaxServiceImplTest {
     private LArray lArray;
     private LArray lArray2;
 
-    @BeforeMethod
+    @BeforeClass
     public void setUp() {
         lArray = new LArray(1, 2, 3, 4, 55, 6, 7, 8, 9, 5);
         lArray2 = new LArray(-1, 2, -3, 4, -55, 6, 7, -8, 9, 5);
