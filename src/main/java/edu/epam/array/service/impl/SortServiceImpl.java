@@ -51,12 +51,13 @@ public class SortServiceImpl implements SortService {
         int[] array = lArray.getLArray();
         for (int step = array.length / 2; step > 0; step /= 2) {
             for (int i = 0; i < array.length - 1; i++) {
-                for (int j = i + step; j < array.length; j += step)
+                for (int j = i + step; j < array.length; j += step) {
                     if (array[i] > array[j]) {
                         int temp = array[j];
                         array[j] = array[i];
                         array[i] = temp;
                     }
+                }
             }
         }
         return array;

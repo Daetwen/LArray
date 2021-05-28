@@ -2,7 +2,6 @@ package edu.epam.array.service.impl;
 
 import edu.epam.array.entity.LArray;
 import edu.epam.array.exception.InfoException;
-import edu.epam.array.service.ChangeService;
 import org.testng.annotations.*;
 
 import static org.testng.Assert.*;

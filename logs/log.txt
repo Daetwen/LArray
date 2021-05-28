@@ -70,3 +70,5 @@
 21-05-27 17:31.922 [main] ERROR epam.array.service.impl.ChangeServiceImpl - Invalid index: -2. Index must be in range from 0 to 9
 21-05-27 17:43.189 [main] ERROR epam.array.service.impl.ChangeServiceImpl - Invalid index: 50. Index must be in range from 0 to 9
 21-05-27 17:43.197 [main] ERROR epam.array.service.impl.ChangeServiceImpl - Invalid index: -2. Index must be in range from 0 to 9
+21-05-28 09:17.626 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
+21-05-28 09:18.714 [main] INFO  edu.epam.array.reader.LArrayFileReader - Information read successfully
