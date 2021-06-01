@@ -1,13 +1,21 @@
 package edu.epam.array.service.impl;
 
-import edu.epam.array.entity.LArray;
+import edu.epam.array.entity.CustomArray;
 import edu.epam.array.service.SortService;
+
+import java.util.stream.IntStream;
 
 public class SortServiceImpl implements SortService {
 
     @Override
-    public int[] sortBubble(LArray lArray) {
-        int[] array = lArray.getLArray();
+    public int[] sortIntStream(CustomArray customArray) {
+        int[] array = IntStream.of(customArray.getCustomArray()).sorted().toArray();
+        return array;
+    }
+
+    @Override
+    public int[] sortBubble(CustomArray customArray) {
+        int[] array = customArray.getCustomArray();
         for (int i = 0; i < array.length - 1; i++) {
             for (int j = 0; j < array.length - 1 - i; j++) {
                 if (array[j] > array[j + 1]) {
@@ -21,8 +29,8 @@ public class SortServiceImpl implements SortService {
     }
 
     @Override
-    public int[] sortSheker(LArray lArray) {
-        int[] array = lArray.getLArray();
+    public int[] sortSheker(CustomArray customArray) {
+        int[] array = customArray.getCustomArray();
         int left = 0;
         int right = array.length - 1;
         while (left < right) {
@@ -47,8 +55,8 @@ public class SortServiceImpl implements SortService {
     }
 
     @Override
-    public int[] sortShell(LArray lArray) {
-        int[] array = lArray.getLArray();
+    public int[] sortShell(CustomArray customArray) {
+        int[] array = customArray.getCustomArray();
         for (int step = array.length / 2; step > 0; step /= 2) {
             for (int i = 0; i < array.length - 1; i++) {
                 for (int j = i + step; j < array.length; j += step) {

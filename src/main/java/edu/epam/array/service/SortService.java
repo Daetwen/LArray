@@ -1,13 +1,14 @@
 package edu.epam.array.service;
 
-import edu.epam.array.entity.LArray;
+import edu.epam.array.entity.CustomArray;
 
 public interface SortService {
 
-    int[] sortBubble(LArray lArray);
+    int[] sortIntStream(CustomArray customArray);
 
-    int[] sortSheker(LArray lArray);
+    int[] sortBubble(CustomArray customArray);
 
-    int[] sortShell(LArray lArray);
+    int[] sortSheker(CustomArray customArray);
 
+    int[] sortShell(CustomArray customArray);
 }

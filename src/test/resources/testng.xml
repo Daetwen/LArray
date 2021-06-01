@@ -1,0 +1,14 @@
+<suite name="Passed/Faild test Suite" verbose="1">
+    <test name="Group Test">
+    <groups>
+        <run>
+            <include name="fileTestGroup" />
+        </run>
+    </groups>
+<classes>
+    <class name="edu.epam.array.parser.CustomArrayParserTest" />
+    <class name="edu.epam.array.reader.CustomArrayFileReaderTest" />
+    <class name="edu.epam.array.validator.CustomArrayValidatorTest" />
+</classes>
+    </test>
+</suite>

@@ -1,14 +1,26 @@
 package edu.epam.array.service;
 
-import edu.epam.array.entity.LArray;
+import edu.epam.array.entity.CustomArray;
+import edu.epam.array.exception.InfoException;
+
+import java.util.OptionalDouble;
+import java.util.OptionalInt;
 
 public interface DetectionService {
 
-    float detectionMeanValue(LArray larray);
+    float detectionMeanValue(CustomArray customArray) throws InfoException;
 
-    int detectionSum(LArray larray);
+    int detectionSum(CustomArray customArray);
 
-    int detectionPositiveElements(LArray larray);
+    int detectionPositiveElements(CustomArray customArray);
 
-    int detectionNegativeElements(LArray larray);
+    int detectionNegativeElements(CustomArray customArray);
+
+    OptionalDouble detectionMeanValueIntStream(CustomArray customArray);
+
+    int detectionSumIntStream(CustomArray customArray);
+
+    long detectionPositiveElementsIntStream(CustomArray customArray);
+
+    long detectionNegativeElementsIntStream(CustomArray customArray);
 }

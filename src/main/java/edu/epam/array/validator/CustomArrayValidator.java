@@ -1,13 +1,26 @@
 package edu.epam.array.validator;
 
-public class LArrayValidator {
+import edu.epam.array.entity.CustomArray;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class CustomArrayValidator {
+
+    public static boolean isListOfStringArrayValid(List<String> array) {
+        return array != null && !array.isEmpty();
+    }
 
     public static boolean isIndexArrayValid(int[] array, int index) {
-        return (index > 0) && (index <= array.length);
+        return (index >= 0 && index <= array.length);
+    }
+
+    public static boolean isCustomArrayValid(CustomArray array) {
+        return array != null && array.length() > 0;
     }
 
     public static boolean checkIsStringArrayValid(String array){
-        if (array.isEmpty()) {
+        if (array == null || array.isEmpty()) {
             return false;
         }
         for (int i = 0; i < array.length() - 1; i++) {
