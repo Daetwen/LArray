@@ -52,6 +52,11 @@ public class CustomArray {
     }
 
     @Override
+    public int hashCode() {
+        return Arrays.hashCode(this.customArray);
+    }
+
+    @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         for(int element : this.customArray) {
