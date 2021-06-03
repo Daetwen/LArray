@@ -13,7 +13,7 @@ public class ChangeServiceImpl implements ChangeService {
 
     @Override
     public int[] changeElementByIndex(CustomArray customArray, int index, int number) throws InfoException {
-        if (!CustomArrayValidator.isCustomArrayValid(customArray)) {
+        if (customArray == null || customArray.length() == 0) {
             logger.error("Invalid CustomArray for work in method changeElementByIndex.");
             throw new InfoException("Invalid CustomArray for work in method changeElementByIndex.");
         }
@@ -31,7 +31,7 @@ public class ChangeServiceImpl implements ChangeService {
 
     @Override
     public int[] changePostitiveMultiplyByNumber(CustomArray customArray, int number) throws InfoException{
-        if (!CustomArrayValidator.isCustomArrayValid(customArray)) {
+        if (customArray == null || customArray.length() == 0) {
             logger.error("Invalid CustomArray for work in method changePostitiveMultiplyByNumber.");
             throw new InfoException("Invalid CustomArray for work in method changePostitiveMultiplyByNumber.");
         }
@@ -46,7 +46,7 @@ public class ChangeServiceImpl implements ChangeService {
 
     @Override
     public int[] changeNegativeSubtractTheNumber(CustomArray customArray, int number) throws InfoException{
-        if (!CustomArrayValidator.isCustomArrayValid(customArray)) {
+        if (customArray == null || customArray.length() == 0) {
             logger.error("Invalid CustomArray for work in method changeNegativeSubtractTheNumber.");
             throw new InfoException("Invalid CustomArray for work in method changeNegativeSubtractTheNumber.");
         }

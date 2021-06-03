@@ -1,8 +1,5 @@
 package edu.epam.array.validator;
 
-import edu.epam.array.entity.CustomArray;
-
-import java.util.Arrays;
 import java.util.List;
 
 public class CustomArrayValidator {
@@ -12,11 +9,7 @@ public class CustomArrayValidator {
     }
 
     public static boolean isIndexArrayValid(int[] array, int index) {
-        return (index >= 0 && index <= array.length);
-    }
-
-    public static boolean isCustomArrayValid(CustomArray array) {
-        return array != null && array.length() > 0;
+        return (array != null && index >= 0 && index <= array.length);
     }
 
     public static boolean checkIsStringArrayValid(String array){

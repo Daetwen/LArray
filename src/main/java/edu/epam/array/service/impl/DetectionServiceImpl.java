@@ -3,7 +3,6 @@ package edu.epam.array.service.impl;
 import edu.epam.array.entity.CustomArray;
 import edu.epam.array.exception.InfoException;
 import edu.epam.array.service.DetectionService;
-import edu.epam.array.validator.CustomArrayValidator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -16,7 +15,7 @@ public class DetectionServiceImpl implements DetectionService {
 
     @Override
     public float detectionMeanValue(CustomArray customArray) throws InfoException {
-        if (!CustomArrayValidator.isCustomArrayValid(customArray)) {
+        if (customArray == null || customArray.length() == 0) {
             logger.error("Invalid CustomArray for work in method detectionMeanValue.");
             throw new InfoException("Invalid CustomArray for work in method detectionMeanValue.");
         }

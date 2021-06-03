@@ -84,3 +84,9 @@
 21-06-01 20:59.682 [main] ERROR epam.array.service.impl.FindMinMaxServiceImpl - Invalid CustomArray for work in method findMinElement.
 21-06-01 21:12.190 [main] ERROR epam.array.service.impl.ChangeServiceImpl - Invalid index: 50. Index must be in range from 0 to 9
 21-06-01 21:12.202 [main] ERROR epam.array.service.impl.ChangeServiceImpl - Invalid index: -2. Index must be in range from 0 to 9
+21-06-03 23:45.034 [main] ERROR edu.epam.array.parser.CustomArrayParser - Invalid List of string for parsing.
+21-06-03 23:47.938 [main] ERROR epam.array.service.impl.ChangeServiceImpl - Invalid index: 50. Index must be in range from 0 to 9
+21-06-03 23:47.945 [main] ERROR epam.array.service.impl.ChangeServiceImpl - Invalid index: -2. Index must be in range from 0 to 9
+21-06-03 23:48.198 [main] ERROR epam.array.service.impl.DetectionServiceImpl - Invalid CustomArray for work in method detectionMeanValue.
+21-06-03 23:48.907 [main] ERROR epam.array.service.impl.FindMinMaxServiceImpl - Invalid CustomArray for work in method findMinElement.
+21-06-03 23:48.914 [main] ERROR epam.array.service.impl.FindMinMaxServiceImpl - Invalid CustomArray for work in method findMinElement.

@@ -16,7 +16,7 @@ public class CustomArrayParser {
 
     public CustomArray parseListToCustomArray(List<String> array) throws InfoException {
         CustomArray customArray = new CustomArray();
-        if (CustomArrayValidator.isListOfStringArrayValid(array)) {
+        if (array != null && !array.isEmpty()) {
             int i = -1;
             while (++i < array.size()) {
                 if (CustomArrayValidator.checkIsStringArrayValid(array.get(i))) {

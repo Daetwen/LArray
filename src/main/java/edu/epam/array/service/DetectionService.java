@@ -4,7 +4,6 @@ import edu.epam.array.entity.CustomArray;
 import edu.epam.array.exception.InfoException;
 
 import java.util.OptionalDouble;
-import java.util.OptionalInt;
 
 public interface DetectionService {
 
